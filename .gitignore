@@ -1,0 +1,63 @@
+# General
+*.dll
+*.lib
+*.exp
+*.exe
+*.user
+*.dylib
+*.plist
+*.lproj
+.DS_Store
+.directory
+.~lock*
+*autosave
+*.manifest
+*.rc
+*.res
+*.ilk
+*.pdb
+*.qm
+
+# Bin folder with exceptions
+/lib/   
+/bin/              
+
+# Applications folder
+/applications/mne_analyze/extensions/deepcntknets/bio
+
+# External device SDKs (if installed)
+/applications/mne_scan/plugins/eegosports/eemagine/
+/applications/mne_scan/plugins/gusbamp/gtec_gUSBamp.h
+/applications/mne_scan/plugins/brainamp/BrainAmpIoCtl.h
+
+# Installer framework
+/tools/ifw_installer/*
+!linux/
+!mac/
+!windows/
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+
+# Compiled Dynamic libraries
+*.so
+*.so.debug
+*.debug
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+
+# Generated files
+ui_*.h
+*.user
+Makefile
+
+# IDE settings
+.cproject
+.project
+.settings
+.vscode
